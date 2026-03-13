@@ -1,0 +1,482 @@
+* {
+    list-style: none;
+
+}
+
+.container {
+    margin: auto;
+    padding: 20px;
+
+}
+
+.mainbox {
+    background-color: #F7F7F4;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.box {
+
+    width: 250px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.img1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gap-2 {
+    gap: 10px;
+}
+
+.dashboard {
+    background-color: #FFF4EE;
+    border-right: 3px solid #FD7B38;
+}
+
+.icon-name {
+    font-size: 13px;
+    color: #FD7B38;
+
+}
+
+.icon-des {
+    font-size: 13px;
+
+}
+
+.img-2 {
+    margin-right: 20px;
+}
+
+.img-3 {
+    margin-right: 30px;
+}
+
+.img-4 {
+    margin-right: 15px;
+}
+
+.img-5 {
+    margin-right: 3px;
+}
+
+.img-6 {
+    margin-right: 30px;
+}
+
+.flex {
+    display: flex;
+
+
+
+}
+
+.box2 {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+
+
+
+.box1 {
+    width: 94%;
+    border-radius: 10px;
+    background: #FFFFFF;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.box-input {
+    background-color: #F7F6F4;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    margin-top: 2px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+
+}
+
+.search-img {
+    margin-left: 20px;
+}
+
+.search {
+    color: #65676D;
+    font-weight: 500;
+}
+
+.tips-img {
+    display: flex;
+    gap: 10px;
+}
+
+.right-section {
+    width: 100%;
+}
+
+.maincard {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+.gap-50 {
+    gap: 50px;
+}
+
+
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.google-title {
+    font-weight: 700;
+}
+
+
+.google-subtitle {
+    margin-top: -24px;
+    color: #65676D;
+}
+
+.level {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11px;
+    margin-top: -21px;
+}
+
+.progress {
+
+    border: 1px solid #F1F2F4;
+    background-color: #F1F2F4;
+    border-radius: 5px;
+    padding: 7px;
+
+}
+
+.priority {
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.task {
+    font-size: 12px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.progress-bar {
+    width: 100%;
+}
+
+.ios {
+    background: #F0F8EF;
+    border: 1px solid #F0F8EF;
+    color: #60B158;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px;
+    width: 70px;
+    text-align: center;
+}
+
+.uiux {
+    background: #E6F2FF;
+    border: 1px solid #E6F2FF;
+    color: #007AFF;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 40px;
+}
+
+.person {
+    margin-right: -22px;
+}
+
+.date {
+    background-color: #FFF2EC;
+    color: #FD7B38;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 100px;
+    font-weight: bold;
+}
+
+.progress1 {
+
+    border: 1px solid #F0F8EF;
+    background-color: #F0F8EF;
+    border-radius: 5px;
+    padding: 7px;
+    color: #60B158;
+
+}
+
+.priority1 {
+    color: #60B158;
+    border: 1px solid #60B158;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.android {
+    color: #FFA800;
+    background-color: #FFF5E1;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 60px;
+}
+
+.addtask {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tasknum {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    color: #65676D;
+    font-weight: bold;
+}
+
+.tasks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #65676D;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #b0b0b3;
+    margin-bottom: -6px;
+    margin-left: -10px;
+    margin-right: -10px;
+
+}
+
+.tasks-gray {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #c1c3c9;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.text-none {
+    text-decoration: line-through;
+
+
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.comment2 {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-left: 22px;
+
+}
+
+.slack-logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.play {
+    display: flex;
+    align-items: center;
+    gap: 211px
+}
+
+.tasks1 {
+    background-color: #FFF4EE;
+    border-left: 3px solid #FD7B38;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: -10px;
+    margin-right: -10px;
+
+
+}
+
+.comment1 {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-weight: bold;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: -27px;
+    margin-top: -19px;
+}
+
+.mess {
+    margin-top: -50px;
+}
+
+.person-title {
+    font-weight: 700;
+
+}
+
+.person-subtitle {
+    margin-top: -24px;
+    color: #65676D;
+    font-size: 12px;
+}
+
+.main-calender {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calender {
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.calender-flex {
+
+    margin-left: -39px;
+    font-size: 15px;
+
+
+
+}
+
+ul {
+    font-weight: bold;
+}
+
+li {
+    margin-top: 5px;
+    font-weight: 500;
+    color: #65676D;
+    text-align: center;
+    padding: 8px;
+}
+
+.weekly {
+    display: flex;
+    gap: 10px;
+
+}
+
+.round {
+    background-color: #FD7B38;
+    color: #FFFFFF;
+    border: 2px solid #FD7B38;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+
+
+}
+
+.disabled {
+    color: rgb(180, 165, 165);
+}
+
+
+
+@media (max-width:768px) {
+
+    .container {
+        padding: 10px;
+    }
+
+
+    .play {
+        margin-right: 230px;
+    }
+
+    .tips-img {
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width:425px) {
+    .box {
+        width: 100%;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+}
