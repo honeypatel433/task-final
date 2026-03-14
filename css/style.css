@@ -13,6 +13,7 @@
     background-color: #F7F7F4;
     border-radius: 10px;
     width: 100%;
+  
 
 }
 
@@ -145,14 +146,16 @@
 }
 
 
+
 .card {
     background-color: #FFFFFF;
     padding: 10px;
     margin-top: 20px;
     width: 300px;
     border-radius: 10px;
-
 }
+
+
 
 .gap-50 {
     gap: 50px;
@@ -346,7 +349,9 @@ span {
 .play {
     display: flex;
     align-items: center;
-    gap: 211px
+    gap: 211px;
+  
+    font-weight: bold;
 }
 
 .tasks1 {
@@ -449,6 +454,19 @@ li {
     color: rgb(180, 165, 165);
 }
 
+@media (max-width:1024px) {
+
+    .card {
+        width: 321px;
+    }
+    .play-img{
+        margin-left: 20px;
+    }
+    .comment2{
+        margin-left: 28px;
+    }
+
+}
 
 
 @media (max-width:768px) {
@@ -466,7 +484,18 @@ li {
         justify-content: flex-end;
         width: 100%;
     }
-
+    .card{
+        width: 470px;
+    }
+    .comment2{
+        margin-left: 76px;
+    }
+    .calender-flex{
+        padding: 13px;
+    }
+    .play-img{
+        margin-left: 169px;
+    }
 
 }
 
@@ -478,5 +507,46 @@ li {
     .flex {
         flex-direction: column;
     }
-
+    .play-img{
+        margin-left: 68px;
+    }
+     .card{
+        width: 95%;
+    }
+    .calender-flex{
+        padding: 6px;
+    }
+ 
+}
+@media (max-width:375px) {
+    .card{
+        width: 100%;
+    }
+   
+    .play-img{
+        margin-left: 40px;
+    }
+     .calender-flex{
+        padding: 5px;
+    }
+     .weekly{
+        gap: 3px;
+        display: flex;
+    }
+    
+}
+@media (max-width:320px) {
+    .card{
+        width: 95%;
+    }
+    .calender-flex{
+        padding: 2px;
+    }
+    .play-img{
+        margin-left: -31px;
+    }
+    .weekly{
+        gap: 3px;
+        display: flex;
+    }
 }
