@@ -516,11 +516,17 @@ li {
     .calender-flex{
         padding: 6px;
     }
+      .add-img{
+        margin-bottom: 37px;
+    }
  
 }
 @media (max-width:375px) {
     .card{
         width: 100%;
+    }
+    .add-img{
+        margin-bottom: 37px;
     }
    
     .play-img{
@@ -549,4 +555,8 @@ li {
         gap: 3px;
         display: flex;
     }
+    .add-img{
+        margin-bottom: 40px;
+    }
+  
 }
